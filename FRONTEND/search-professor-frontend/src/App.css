@@ -3,3 +3,267 @@
     color: white
 }
 
+/* Container styling */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6c63ff, #00c6ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Card styling */
+.login-card {
+  background-color: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Headings */
+.login-card h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.login-card p {
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+/* Form styling */
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.login-card label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.login-card input:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 8px rgba(108, 99, 255, 0.4);
+  outline: none;
+}
+
+/* Button styling */
+.login-card button {
+  padding: 0.9rem 1rem;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-card button:hover {
+  background: #574fd6;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(108, 99, 255, 0.4);
+}
+
+
+/* Container styling */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Card styling */
+.register-card {
+  background-color: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Headings */
+.register-card h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #6c63ff;
+}
+
+.register-card p {
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+/* Form styling */
+.register-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.register-card label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.register-card input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.register-card input:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 8px rgba(108, 99, 255, 0.4);
+  outline: none;
+}
+
+/* Button styling */
+.register-card button {
+  padding: 0.9rem 1rem;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-card button:hover {
+  background: #574fd6;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(108, 99, 255, 0.4);
+}
+
+
+/* Container for profile page */
+.profile-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+.profile-container h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #6c63ff;
+  text-align: center;
+}
+
+/* Message box */
+.profile-message {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.profile-message.success {
+  background-color: #e6ffe6;
+  color: #2d662d;
+}
+
+.profile-message.error {
+  background-color: #ffe6e6;
+  color: #a80000;
+}
+
+/* Profile info card */
+.profile-info {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Display profile info */
+.profile-info div {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+/* Form inputs */
+.profile-info input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+/* Buttons container */
+.profile-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Buttons */
+.profile-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Specific button colors */
+.btn-edit {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-save {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-cancel {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Button hover effects */
+.profile-buttons button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}

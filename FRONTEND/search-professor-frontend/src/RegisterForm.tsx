@@ -36,8 +36,9 @@ function RegisterForm() {
       });
   };
   return (
-    <>
-      <h1>Register Form</h1>
+  <div className="register-container">
+    <div className="register-card">
+      <h1>Register</h1>
       <p>Register to Continue</p>
       <form onSubmit={handleSubmit}>
         <div>
@@ -73,7 +74,9 @@ function RegisterForm() {
 
         <button type="submit">Register</button>
       </form>
-    </>
-  );
+    </div>
+  </div>
+);
+
 }
 export default RegisterForm;
